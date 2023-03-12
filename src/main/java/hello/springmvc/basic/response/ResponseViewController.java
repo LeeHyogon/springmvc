@@ -19,7 +19,7 @@ public class ResponseViewController {
         return "response/hello";
     }
 
-    
+
     //명시성이 너무 떨어지므로 권장하지 않음.
     @RequestMapping("/response/hello")
     public void responseViewV3(Model model){
